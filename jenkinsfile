@@ -2,4 +2,7 @@ node{
     Stage('test'){
         sh 'practice'
     }
+    stage('practice'){
+        git url: 'https://github.com/nagarjunaduggireddy/game-of-life.git'
+    }
 }
